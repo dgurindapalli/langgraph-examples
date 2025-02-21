@@ -7,7 +7,7 @@
     "index": {
       "embed": "./embeddings.py:embed_texts",
       "dims": 768,
-      "fields": ["text", "summary"]
+      "fields": ["text", "summary"] 
     }
   }
 }
