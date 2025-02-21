@@ -1,3 +1,13 @@
 {
-  "dependencies": "."
+  "dependencies": ["."],
+  "graphs": {
+    "memory_agent": "./agent/graph.py:graph"
+  },
+  "store": {
+    "index": {
+      "embed": "./embeddings.py:embed_texts",
+      "dims": 768,
+      "fields": ["text", "summary"]
+    }
+  }
 }
